@@ -1,11 +1,12 @@
 const ingredients = [
-  "Potatoes",
-  "Mushrooms",
-  "Garlic",
-  "Tomatoes",
-  "Herbs",
-  "Condiments",
+  'Potatoes',
+  'Mushrooms',
+  'Garlic',
+  'Tomatos',
+  'Herbs',
+  'Condiments',
 ];
+
 
 const allIngredients = document.querySelector("#ingredients");
 
@@ -19,5 +20,3 @@ const ingredientNames = ingredients.map(ingredient => {
 });
 
 allIngredients.append(...ingredientNames);
-
-
